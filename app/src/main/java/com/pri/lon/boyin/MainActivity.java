@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationB
         FragmentTransaction transaction = fm.beginTransaction();
         transaction.replace(R.id.container, mFragments.get(0));
         transaction.commit();
+
     }
 
     @Override
